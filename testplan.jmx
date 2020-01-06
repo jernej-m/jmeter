@@ -49,10 +49,15 @@
           <stringProp name="query">insert into test
 (select
         md5(random()::text) as col_1,
-        md5(random()::text) as col_2,
-        md5(random()::text) as col_3,
-        md5(random()::text) as col_4,
-        md5(random()::text) as col_5);
+	md5(random()::text) as col_2,
+	md5(random()::text) as col_3,
+	md5(random()::text) as col_4,
+	md5(random()::text) as col_5,
+	md5(random()::text) as col_6,
+        md5(random()::text) as col_7,
+        md5(random()::text) as col_8,
+        md5(random()::text) as col_9,
+        md5(random()::text) as col_10);
 </stringProp>
           <stringProp name="queryArguments"></stringProp>
           <stringProp name="queryArgumentsTypes"></stringProp>
